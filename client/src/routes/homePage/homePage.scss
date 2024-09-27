@@ -15,21 +15,21 @@
       gap: 50px;
       height: 100%;
 
-      @include lg{
+      @include lg {
         padding-right: 50px;
       }
 
-      @include md{
+      @include md {
         padding: 0;
       }
 
-      @include sm{
+      @include sm {
         justify-content: flex-start;
       }
 
       .title {
         font-size: 64px;
-
+        color: #9dde8b;
         @include lg {
           font-size: 48px;
         }
@@ -61,7 +61,7 @@
 
   .imgContainer {
     flex: 2;
-    background-color: #fcf5f3;
+    background-color: #9dde8b;
     position: relative;
     display: flex;
     align-items: center;
@@ -80,4 +80,11 @@
       }
     }
   }
+}
+
+p {
+  color: #40a578;
+}
+h2 {
+  color: #40a578;
 }
